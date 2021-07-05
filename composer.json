@@ -1,0 +1,20 @@
+{
+  "name": "sampoyigi/ti-ext-composertester",
+  "type": "tastyigniter-extension",
+  "author": "SamPoyigi",
+  "description": "An extension to test composer package-type install.",
+  "require": {
+    "composer/installers": "~1.0"
+  },
+  "extra": {
+    "tastyigniter-extension": {
+      "code": "sampoyigi.composertester",
+      "name": "Composer Tester Extension",
+      "icon": {
+        "class": "fa fa-plug"
+      }
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
